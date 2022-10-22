@@ -15,7 +15,11 @@ background: linear-gradient(90deg, rgba(116,9,121,1) 35%, rgba(0,212,255,1) 100%
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background: #1B1B1B;
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 6px );
+  -webkit-backdrop-filter: blur( 6px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   justify-content: center;
   align-items: center;
   min-height: 95vh;
