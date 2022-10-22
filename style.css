@@ -29,3 +29,7 @@ background: linear-gradient(90deg, rgba(116,9,121,1) 35%, rgba(0,212,255,1) 100%
   color: white;
   font-size: 24px;
 }
+.imgAva{
+  border-radius: 50%;
+  border: 3px solid white;
+}
