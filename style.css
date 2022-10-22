@@ -1,3 +1,7 @@
+body{
+  background: rgb(116,9,121);
+background: linear-gradient(90deg, rgba(116,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
 #container{
   display: flex;
     width: 100%;
@@ -14,9 +18,10 @@
   background: #1B1B1B;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 95vh;
+  border-radius: 20px;
   width: 20%;
-  margin: 10px;
+  margin: 5px;
   color: white;
   font-size: 24px;
 }
