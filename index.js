@@ -3,7 +3,11 @@ let btnClick = document.querySelector('.container2');
 
 btnClick.addEventListener('click', () => {
 	containerUsers.style.visibility = 'visible';
-	btnClick.style.visibility = 'hidden';
+	user1();
+	user2();
+	user3();
+	user4();
+	user5();
 });
 
 async function user1() {
@@ -23,7 +27,6 @@ async function user1() {
 	let elCell = document.getElementById('cell_1').innerHTML = infoCell;
 	let elName = document.getElementById('name_1').innerHTML = infoName;
 }
-user1();
 
 async function user2() {
 	let response = await fetch('https://randomuser.me/api');
@@ -42,7 +45,6 @@ async function user2() {
 	let elCell = document.getElementById('cell_2').innerHTML = infoCell;
 	let elName = document.getElementById('name_2').innerHTML = infoName;
 }
-user2();
 
 async function user3() {
 	let response = await fetch('https://randomuser.me/api');
@@ -61,7 +63,6 @@ async function user3() {
 	let elCell = document.getElementById('cell_3').innerHTML = infoCell;
 	let elName = document.getElementById('name_3').innerHTML = infoName;
 }
-user3();
 
 async function user4() {
 	let response = await fetch('https://randomuser.me/api');
@@ -80,7 +81,6 @@ async function user4() {
 	let elCell = document.getElementById('cell_4').innerHTML = infoCell;
 	let elName = document.getElementById('name_4').innerHTML = infoName;
 }
-user4();
 
 async function user5() {
 	let response = await fetch('https://randomuser.me/api');
@@ -99,4 +99,3 @@ async function user5() {
 	let elCell = document.getElementById('cell_5').innerHTML = infoCell;
 	let elName = document.getElementById('name_5').innerHTML = infoName;
 }
-user5();
